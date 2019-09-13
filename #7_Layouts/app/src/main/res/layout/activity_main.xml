@@ -7,42 +7,48 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnToFragOne"
+        android:id="@+id/btnFragmentToOne"
         style="@style/ButtonTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="@string/btn_to_frag_1"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btnToFragTwo"
-        app:layout_constraintEnd_toStartOf="@+id/btnToFragTwo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFragmentToTwo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnToFragTwo"
+        android:id="@+id/btnFragmentToTwo"
         style="@style/ButtonTheme"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/btn_to_frag_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnToFragOne"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_container" />
+        app:layout_constraintStart_toEndOf="@+id/btnFragmentToOne" />
+
 
     <ScrollView
-        android:id="@+id/fragment_container"
-        android:layout_width="379dp"
-        android:layout_height="635dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnToFragOne"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFragmentToOne"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <FrameLayout
+            android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            app:layout_constraintBottom_toTopOf="@+id/fab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
