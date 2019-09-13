@@ -10,14 +10,19 @@
     <dimen name="totalTime_textSize">16sp</dimen>
 
     <!-- Dimens for margin -->
-    <dimen name="layout_marginTop">24dp</dimen>
-    <dimen name="layout_marginStart">32dp</dimen>
-    <dimen name="layout_marginEnd">32dp</dimen>
-    <dimen name="freeSeats_marginStart">4dp</dimen>
-    <dimen name="layout_line_margin">16dp</dimen>
-    <dimen name="large_margin">64dp</dimen>
-    <dimen name="time_margin">8dp</dimen>
-    <dimen name="arrow_margin">16dp</dimen>
-    <dimen name="button_margin">16dp</dimen>
-    <dimen name="place_margin_extra">14dp</dimen>
+    <dimen name="margin_left">30dp</dimen>
+    <dimen name="margin_right">30dp</dimen>
+    <dimen name="margin_small_left">16dp</dimen>
+    <dimen name="margin_small_right">16dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="margin_top_mid">18dp</dimen>
+    <dimen name="margin_top_small">10dp</dimen>
+    <dimen name="margin_bottom">24dp</dimen>
+    <dimen name="margin_between_horizontal">8dp</dimen>
+    <dimen name="margin_between_big_horizontal">16dp</dimen>
+    <dimen name="margin_between_vertical">24dp</dimen>
+    <dimen name="margin_between_small_vertical">16dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="fab_bottom_margin">16dp</dimen>
+    <dimen name="fab_top_margin">80dp</dimen>
 </resources>

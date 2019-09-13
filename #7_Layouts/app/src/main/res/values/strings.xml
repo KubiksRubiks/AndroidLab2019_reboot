@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Layouts</string>
+    <string name="app_name">layouts</string>
 
     <!-- Unchangeable text on fragments -->
     <string name="depart_text">DEPART</string>
@@ -15,4 +15,7 @@
     <string name="image_of_arrow_right">horizontal arrow from left to right</string>
     <string name="btn_to_frag_1">FRAGMENT 1</string>
     <string name="btn_to_frag_2">FARGMENT 2</string>
+
+    <string name="night_theme">Night Theme</string>
+    <string name="day_theme">Day Theme</string>
 </resources>

@@ -5,7 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <!-- Custom colors -->
-    <color name="custom_gray_darker">#979797</color>
+    <color name="custom_gray_light">#979797</color>
     <color name="custom_gray">#8E8E8E</color>
     <color name="custom_gray_dark">#737373</color>
     <color name="custom_green">#77CA27</color>
