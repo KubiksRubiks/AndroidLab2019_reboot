@@ -7,18 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_to_frag_1"
+        android:id="@+id/btnToFragOne"
         style="@style/ButtonTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_to_frag_1"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_to_frag_2"
-        app:layout_constraintEnd_toStartOf="@+id/btn_to_frag_2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnToFragTwo"
+        app:layout_constraintEnd_toStartOf="@+id/btnToFragTwo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_to_frag_2"
+        android:id="@+id/btnToFragTwo"
         style="@style/ButtonTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,14 +28,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_to_frag_1"
+        app:layout_constraintStart_toEndOf="@+id/btnToFragOne"
         app:layout_constraintTop_toBottomOf="@+id/fragment_container" />
 
     <ScrollView
         android:id="@+id/fragment_container"
         android:layout_width="379dp"
         android:layout_height="635dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_to_frag_1"
+        app:layout_constraintBottom_toTopOf="@+id/btnToFragOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
