@@ -1,24 +1,18 @@
 <resources>
     <string name="app_name">Layouts</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Unchangeable text on fragments -->
     <string name="depart_text">DEPART</string>
-    <string name="free_seats">Free seats:</string>
-    <string name="depart_text_date">16 SEP 2019</string>
-    <string name="depart_cost_text">435 BYN</string>
-    <string name="msq_text">MSQ</string>
-    <string name="flo_text">FLO</string>
-    <string name="depart_start_time_text">00:20</string>
-    <string name="depart_end_time_text">09:20</string>
-    <string name="depart_time_text">9:00</string>
-    <string name="depart_number_text">3</string>
+    <string name="free_seats_text">Free seats:</string>
     <string name="return_text">RETURN</string>
-    <string name="return_text_date">17 SEP 2019</string>
-    <string name="return_number_text">5</string>
-    <string name="return_cost_text">488 BYN</string>
-    <string name="return_start_time_text">05:10</string>
-    <string name="return_end_time_text">09:20</string>
-    <string name="return_time_text">4:10</string>
-    <string name="contentDiscription">I not understand this attribute</string>
+    <string name="byn_text">BYN</string>
+
+    <!-- attr(IV) ContentDiscription -->
+    <string name="image_of_flight">flight</string>
+    <string name="image_of_flight_down">flight down to land</string>
+    <string name="image_of_flight_up">flight up from land</string>
+    <string name="image_of_clock">clock sceduler</string>
+    <string name="image_of_arrow_right">horizontal arrow from left to right</string>
+    <string name="btn_to_frag_1">FRAGMENT 1</string>
+    <string name="btn_to_frag_2">FARGMENT 2</string>
 </resources>

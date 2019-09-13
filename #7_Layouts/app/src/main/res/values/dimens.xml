@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimens for text -->
+    <dimen name="title_textSize">24sp</dimen>
+    <dimen name="date_textSize">20sp</dimen>
+    <dimen name="freeSeats_textSize">12sp</dimen>
+    <dimen name="cost_textSize">22sp</dimen>
+    <dimen name="place_textSize">38sp</dimen>
+    <dimen name="time_textSize">18sp</dimen>
+    <dimen name="totalTime_textSize">16sp</dimen>
+
+    <!-- Dimens for margin -->
+    <dimen name="layout_marginTop">24dp</dimen>
+    <dimen name="layout_marginStart">32dp</dimen>
+    <dimen name="layout_marginEnd">32dp</dimen>
+    <dimen name="freeSeats_marginStart">4dp</dimen>
+    <dimen name="layout_line_margin">16dp</dimen>
+    <dimen name="large_margin">64dp</dimen>
+    <dimen name="time_margin">8dp</dimen>
+    <dimen name="arrow_margin">16dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="place_margin_extra">14dp</dimen>
+</resources>
