@@ -1,6 +1,6 @@
 package com.astudio.layouts.entity
 /**
- * Enum class with types of flights.
+ * Enum [class} with types of flights.
  *
  * @author Anna Zholud
  */
