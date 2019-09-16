@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Layouts</string>
+
+    <!-- Unchangeable text on fragments -->
+    <string name="depart_text">DEPART</string>
+    <string name="free_seats_text">Free seats:</string>
+    <string name="return_text">RETURN</string>
+    <string name="byn_text">BYN</string>
+
+    <!-- attr(IV) ContentDiscription -->
+    <string name="image_of_flight">flight</string>
+    <string name="image_of_flight_down">flight down to land</string>
+    <string name="image_of_flight_up">flight up from land</string>
+    <string name="image_of_clock">clock sceduler</string>
+    <string name="image_of_arrow_right">horizontal arrow from left to right</string>
+    <string name="btn_to_frag_1">FRAGMENT 1</string>
+    <string name="btn_to_frag_2">FARGMENT 2</string>
+
+    <string name="night_theme">Night Theme</string>
+    <string name="day_theme">Day Theme</string>
+</resources>
