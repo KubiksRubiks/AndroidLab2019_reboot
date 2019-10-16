@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PaintWidget">
+        <attr name="pw_maxWidth" format="integer" />
+        <attr name="pw_defaultColorPosition" format="color" />
+        <attr name="pw_FirstItemColor" format="enum">
+            <enum name="black" value="0xFF000000" />
+            <enum name="gray_dark" value="0xFF272525" />
+            <enum name="gray_light" value="0xFF918989" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioButton">
+        <attr name="crb_bgColor" format="color"/>
+    </declare-styleable>
+</resources>

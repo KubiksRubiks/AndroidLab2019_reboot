@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="width_text">Width:</string>
+    <string name="colors">Colors:</string>
+    <string name="tg_off">SHOW</string>
+    <string name="tg_on">HIDE</string>
+    <string name="text">Press button for swith state of PaintWidget</string>
+    <string name="width_changed">Value of width SeekBar is changed</string>
+    <string name="color_changed">Color is changed</string>
+</resources>

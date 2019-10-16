@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="214dp"
+    android:layout_height="156dp"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <TextView
+        android:id="@+id/tv_widthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small_8"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:layout_marginEnd="8dp"
+        android:text="@string/width_text"
+        android:textSize="@dimen/font_large_18"
+        app:layout_constraintEnd_toStartOf="@+id/tv_seekBarWidth"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_seekBarWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:layout_marginEnd="@dimen/spacing_small_8"
+        android:text="2"
+        android:textSize="@dimen/font_large_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small_8"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:layout_marginEnd="@dimen/spacing_small_8"
+        android:progressDrawable="@drawable/bg_seekbar"
+        android:splitTrack="false"
+        android:thumb="@drawable/slider_seekbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_widthText" />
+
+    <TextView
+        android:id="@+id/tv_colorsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small_8"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:text="@string/colors"
+        android:textSize="@dimen/font_large_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/spacing_small_8"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="@dimen/spacing_small_8"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_colorsText">
+
+        <com.astudio.customview.widget.CustomRadioButton
+            android:id="@+id/rb_first"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/radio_button_size_20"
+            android:layout_marginStart="@dimen/spacing_small_8"
+            android:layout_marginEnd="@dimen/spacing_small_8"
+            android:layout_weight="1" />
+
+
+        <com.astudio.customview.widget.CustomRadioButton
+            android:id="@+id/rb_second"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/radio_button_size_20"
+            android:layout_marginStart="@dimen/spacing_small_8"
+            android:layout_marginEnd="@dimen/spacing_small_8"
+            android:layout_weight="1"
+            app:color="@android:color/holo_red_dark"/>
+
+        <com.astudio.customview.widget.CustomRadioButton
+            android:id="@+id/rb_third"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/radio_button_size_20"
+            android:layout_marginStart="@dimen/spacing_small_8"
+            android:layout_marginEnd="@dimen/spacing_small_8"
+            android:layout_weight="1"
+            app:color="@android:color/holo_green_dark"/>
+
+        <com.astudio.customview.widget.CustomRadioButton
+            android:id="@+id/rb_fourth"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/radio_button_size_20"
+            android:layout_marginStart="@dimen/spacing_small_8"
+            android:layout_marginEnd="@dimen/spacing_small_8"
+            android:layout_weight="1"
+            app:color="@android:color/holo_blue_dark"/>
+    </RadioGroup>
+
+</merge>
